@@ -1,0 +1,35 @@
+.footer {
+  background-color: rgb(30, 26, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+  padding: 32px 0;
+}
+
+.footer p {
+  margin: 0;
+  color: rgb(118, 58, 77);
+}
+
+.footer ul {
+  padding-top: 56px;
+  list-style-type: none;
+  letter-spacing: 1rem;
+}
+
+li {
+  display: inline;
+}
+
+.fa-brands {
+  color: rgba(227, 114, 150, 0.5);
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.fa-brands:hover {
+  color: rgb(227, 114, 149);
+  cursor: pointer;
+}
